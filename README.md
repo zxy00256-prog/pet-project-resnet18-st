@@ -63,26 +63,3 @@ python evaluate.py
 python utils/draw_curve.py
 ```
 
-### 实验结果
-
-混淆矩阵：
-![混淆矩阵](results/confusion_matrix.png)
-
-
-
-训练 Loss&Acc 曲线：
-![训练Loss与Acc曲线](results/loss_acc_curve.png)
-
-
-
-Grad-CAM 热力图可视化：
-
-**样本 1：预测正确（Correct | GT=0）**
-![正确样本热力图](results/gradcam_0.png)
-
-
-
-**样本 2：预测错误（Wrong | GT=0，Pred=32）**
-![错误样本热力图](results/gradcam_1.png)
-
-
